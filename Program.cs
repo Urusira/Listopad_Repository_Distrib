@@ -3,7 +3,7 @@ class Program
 {
     static int EnterNumber(int num_a)
     {
-        Console.WriteLine("\n\nPlease, enter A: ");
+        Console.WriteLine("\nPlease, enter A: ");
         num_a = Convert.ToInt32(Console.ReadLine());
         return num_a;
     }
@@ -11,7 +11,7 @@ class Program
     {
         if (num_a > 0)
         {
-            Console.WriteLine($"\nArea of an equilateral triangle with side A: {(((num_a * num_a) * Math.Sqrt(3)) / 4)}");
+            Console.WriteLine($"\nArea of an equilateral triangle with side A: {(((num_a * num_a) * Math.Sqrt(3)) / 4)}\n");
         }
         else
         {
@@ -20,6 +20,7 @@ class Program
     }
     static void CalcPerim(int num_a)
     {
+        Console.WriteLine("\nPerimeter of an equilateral triangle with side A: " + num_a * 3 + "\n");
     }
     static void Main()
     {
