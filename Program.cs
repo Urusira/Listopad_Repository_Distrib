@@ -10,8 +10,9 @@ class Program
     {
     }
 
-    static void CalcPerim(int a)
+    static void CalcPerim(int num_a)
     {
+        Console.WriteLine("Perimeter of an equilateral triangle with side A: " + num_a * 3);
     }
 
     static void Main()
