@@ -10,6 +10,11 @@
 	@version	1.0.1
 \par Содержит класс:
 	@ref Program
+\par Содержит функции:
+    @ref EnterNumber
+    @ref CalcArea
+    @ref CalcPerim
+    @ref Main
 */
 
 /// Класс с консольным приложением
